@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html , body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    gap: 40px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding-top: 20px;
+    padding-bottom: 7px;
+    padding-right: 70px;
+}
+.meesho{
+    font-size: 6rem;
+    color: rgba(65, 9, 65, 0.719);
+}
+input{
+    width: 40rem;
+    margin-top: 20px;
+    height: 4rem;
+    margin-left: -20px;
+}
+.third{
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: -40px;
+    height: 4rem;
+    margin-top: 2rem;
+}
+.fourth{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: -2rem;
+}
+.fifth{
+    font-size: 2rem;
+    margin-top: 3rem;
+    border-left: 3px solid lightgray;
+    padding-left: 2rem;
+    margin-left: -2rem;
+
+
+}
+.sixth{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: -3rem;
+    border-left: 4px solid lightgray;
+    padding-left: 2rem;
+}
+.seventh{
+    font-size: 2rem;
+    margin-top: 3rem;
+    border-left: 3px solid lightgray;
+    padding-left: 2rem;
+    margin-left: -3rem;
+}
+.eight{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.www{
+    display: flex;
+    gap: 2.5rem;
+    font-size: 2rem;
+    background-color: white;
+    margin-top: 1000px;
+    padding-top: 70px;
+    z-index: 1;
+}
+hr{
+    margin-top: 2rem;
+    color: lightgray;
+    margin-bottom: 3rem;
+
+}
+.ww1{
+    margin-left: 1rem;
+}
+.ww18>p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -80px;
+}
+.ww19{
+    width: 30rem;
+    color: rgb(91, 19, 158);
+    margin-top: -60px;
+}
+.ww20{
+    width: 30rem;
+    color: rgb(80, 16, 139);
+    margin-top: -60px;
+}
+.www{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.ww21{
+    margin-left: 11rem;
+    position: relative;
+}
+
+.h1{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.ww22{
+    position: absolute;
+    top: 247px;
+    left: 440px;
+}
+.ww23{
+    position: absolute;
+    right: 190px;
+    top: 247px;
+}
+.ww24{
+    margin-left: 11rem;
+    margin-top: 10rem;
+    position: relative;
+}
+.ww25{
+    position: absolute;
+    top: 10rem;
+    left: 400px;
+}
+.ww26{
+    position: absolute;
+    top: 170px;
+    left: -290px;
+}
+.ww27{
+    position: absolute;
+    top: 0;
+    left: 210px;
+}
+.ww28{
+    position: absolute;
+    top: 0;
+    left: 420px;
+}
+.ww29{
+    position: absolute;
+    top: 340px;
+    left: 30px;
+
+}
+.ww30{
+    position: absolute;
+    top: 340;
+    left: 240px;
+    
+}
+.ww31{
+    position: absolute;
+    top: 340px;
+    left: 440px;
+}
+.ww33{
+    font-size: 40px;
+    margin-left: 150px;
+}
+.wwwww{
+    display: flex;
+    margin-left: 150px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-top: -200px;
+}
+.ww36{
+    margin-left: 20px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+.ww35,.ww38{
+    padding-left: 10px;
+}
+.ww39{
+    margin-left: 30px;
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+.PLAYSTORE{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 40px;
+    gap: 20px;
+    background-color: rgb(139, 11, 122);
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    padding-top: 13px;
+
+}
+.ww45{
+    margin-left: 150px;
+    
+}
+.ww47{
+    display: flex;
+    margin-top: 100px;
+}
+.background_image{
+    /* margin-top: 200px; */
+    margin-left: 11rem;
+    margin-top: 10rem;
+    
+}
+.view{
+    position: absolute;
+    top: 25rem;
+    left: 20rem;
+}
+.background_main{
+    position: relative;
+}
+.absolute_first{
+    position: absolute;
+    top: 10rem;
+    left: 50rem;
+}
+.assessories{
+    position: absolute;
+    top: 450px;
+    left: 52rem;
+}
+.absolute_second{
+    position: absolute;
+    top: 100px;
+    left: 730px;
+    
+}
+.footwear{
+    position: absolute;
+    top: 450px;
+    left: 745px;
+
+
+}
+.absolute_third{
+    position: absolute;
+    top: 100px;
+    left: 950px;
+}
+.electronic{
+    position: absolute;
+    top: 450px;
+    left: 980px;
+}
+.receller_background{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.Become{
+    position: relative;
+}
+.hhr{
+    position: absolute;
+    top: 70px;
+    font-size: 30px;
+    color: blue;
+    left: 890px;
+}
+.background_font{
+    position: absolute;
+    top: 130px;
+    left: 630px;
+    font-size: 50px;
+    text-align: justify;
+    color: rgb(160, 12, 160);
+}
+.background_font2{
+    position: absolute;
+    top: 190px;
+    left: 740px;
+    font-size: 50px;
+    color: rgb(160, 12, 160);
+}
+.google_play{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+}
+.app_store{
+    position: absolute;
+    top: 300px;
+    left: 1020px;
+}
+.registered{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.background_image7{
+    position: relative;
+}
+.heading_background{
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    left: 170px;
+    color: white;
+}
+.line{
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    color: white;
+    left: 170px;
+}
+.check_box{
+    display: flex;
+}
+.check_box1{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 170px;
+    font-size: 20px;
+    color: white;
+    gap: 10px;
+}
+.check_box2{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 430px;
+    font-size: 20px;
+    color: white;
+    gap: 10px;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.check_box3{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 650px;
+    font-size: 20px;
+    color: white;
+    gap: 10px;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.signup{
+    position: absolute;
+    top: 220px;
+    color: rgb(136, 26, 127);
+    width: 150px;
+    background-color: white;
+    left: 170px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.main_body1{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+    width: 300px;
+    padding-left: 25px;
+    line-height: 35px;
+}
+.rating{
+    background-color: aqua;
+    width: 70px;
+    border-radius: 40px;
+    padding-left: 7px;
+    color: white;
+}
+.two_div{
+    display: flex;
+    gap: 10px;
+}
+.rupee{
+    font-size: 27px;
+}
+.first_product_row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: -100px;
+}
+.main_body{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+    width: 300px;
+    padding-left: 25px;
+    line-height: 35px;
+}
+.hhrh{
+    padding-left: -40px;
+}
+.product{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.signup:hover{
+    box-shadow: 5px 6px 8px rgb(230, 230, 233);
+    opacity: 1px;
+}
+.Home_kitchen{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.black{
+    color: rgb(139, 5, 5);
+    width:100px;
+}
+:hover.ww1{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww3{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww5{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww7{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww9{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww11{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww12{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww14{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+:hover.ww16{
+    color: rgb(165, 31, 199);
+    text-decoration: underline solid rgb(165, 31, 199) ;
+    cursor: pointer;
+
+}
+
+/* responsive */
+@media(width<=1300px){
+    .ww21{
+        height: 800px;
+    }
+    .ww21 > img {
+        height: 100%;
+        width: 100%;
+    }
+    .ww23{
+        display: none;
+    }
+    .ww22{
+        top:500px;
+    }
+}
+@media(width<=1300px){
+    .ww24{
+        height: 800px;
+    }
+    .ww28{
+
+        float: left;
+        display: none;
+
+
+    }
+    .ww31{
+        float: left;
+        display: none;
+    }
+    .ww27 > img{
+        float: left;
+    }
+    .ww30>img{
+        float: left;
+    }
+}
+@media(width<=1300px){
+    .ww47{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media(width<=1300px){
+    .backgroung_image{
+        height: 800px;
+    }
+    .absolute_third{
+        display: none;
+    }
+    .electronic{
+        display: none;
+    }
+}
+@media(width<=1300px){
+    .ww32>h1{
+        font-size: 30px;
+        color: black;
+        padding-bottom: 20px;
+    }
+    .ww34>img{
+        margin-top: 220px;
+
+    }
+    .ww35{
+        margin-top: 220px;
+    }
+    .ww36{
+        margin-top: 220px;
+    }
+    .ww37{
+        margin-top: 220px;
+    }
+    .ww39{
+        margin-top: 220px;
+    }
+    .ww40{
+        margin-top: 220px;
+    }
+    
+}
+@media(width<=1300px){
+    .hhr>p{
+        text-align: left;
+        left: -200px;
+        font-size: 30px;
+    }
+    .background_font>p{
+        font-size: 30px;
+        left: 650px;
+
+    }
+    .background_font2>p{
+        font-size: 30px;
+        left: 690px;
+        margin-right: 200px;
+    }
+    .google_play>img{
+        margin-top: 230px;
+        margin-left: -690px;
+        
+    }
+    .app_store>img{
+        margin-top: 230px;
+        margin-left: -660px;
+    }
+
+}
+@media(width<=1300px){
+    .background_image7>img{
+        width: 300px;
+        height: auto;
+    }
+}
